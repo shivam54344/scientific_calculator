@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.main-body{
+    border: 2px solid black;
+    width: 30vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(98, 98, 98);
+}
+
+.display-part{
+    border: 2px solid black;
+    text-align: end;
+    padding: 1rem 0.5rem;
+    background-color: rgb(130, 180, 182);
+    border-radius: 0.5rem;
+    font-family: 'Scientific Calculator LCD', sans-serif;
+}
+
+.result{
+    font-size: 2rem;
+    padding-top: 0.5rem
+}
+
+.input{
+    border: 2px solid black;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(162, 162, 162);
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.row button{
+    width: 2.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.row button:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+#calculate{
+    width: 5.95rem;
+    background-color: gold;
+}
+
+#calculate:hover{
+    background-color: rgb(220, 187, 0);
+}
+
+#delete{
+    background-color: red;
+    color: white;
+}
+
+#delete:hover{
+    background-color: rgb(219, 12, 12);
+}
+
+.operation{
+    height: 2rem;
+}
+
+.active-angle{
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar{
+    background-color: rgb(164, 82, 240);
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    background-image: url('https://www.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png');
+}
